@@ -51,7 +51,11 @@ spring:
       ddl-auto: update
 #    显示sql
     show-sql: true
-
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    timeout: 20000
 mybatis:
   config-location: classpath:mybatis/mybatis_config.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
