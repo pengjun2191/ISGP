@@ -1,0 +1,61 @@
+#login_body {
+  background: url("../images/loginbcg.jpg") no-repeat center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: fixed;
+}
+#register_body {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  background: #909399 repeat scroll center;
+  top: 0;
+  bottom:0;
+}
+#change_pw_body {
+  background: url("../images/changepw.jpg") no-repeat center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: fixed;
+}
+.login_form {
+  border-radius: 15px;
+  background-clip: padding-box;
+  margin: 0px auto;
+  width: 350px;
+  padding: 35px 35px 15px 35px;
+  background: #fff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 25px #cac6c6;
+}
+.register_form {
+  border-radius: 15px;
+  background-clip: padding-box;
+  margin: 90px auto;
+  width: 35%;
+  padding: 35px 15px 15px 35px;
+  background: #FFFFFF;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 10px #cac6c6;
+}
+.efi {
+  margin-left: 0px;
+}
+.change_pw_form {
+  border-radius: 15px;
+  background-clip: padding-box;
+  margin: 90px auto;
+  width: 350px;
+  padding: 35px 35px 15px 35px;
+  background: Transparent;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 25px #cac6c6;
+}
+.login_title {
+  margin: 0 auto 40px auto;
+  text-align: center;
+  color: #505458;
+}

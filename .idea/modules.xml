@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ISGP.iml" filepath="$PROJECT_DIR$/.idea/ISGP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ISGP_Spring/ISGP_Spring.iml" filepath="$PROJECT_DIR$/ISGP_Spring/ISGP_Spring.iml" />
+    </modules>
+  </component>
+</project>

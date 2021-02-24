@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.PSysRolesMapper">
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.PSysRoles">
+        <id column="role_id" property="roleId"></id>
+        <result column="role_name_es" property="roleNameEs"></result>
+        <result column="role_name_zh" property="roleNameZh"></result>
+    </resultMap>
+    <select id="getRoleById" resultType="com.example.demo.entity.PSysRoles">
+        select * from p_sys_roles where role_id = #{roleId}
+    </select>
+    <select id="findAll" resultMap="BaseResultMap">
+         select * from p_sys_roles order by role_id
+    </select>
+    <insert id="insertPSysRole">
+        insert into p_sys_roles(role_name_es,role_name_zh) values (#{roleNameEs},#{roleNameZh})
+    </insert>
+</mapper>
