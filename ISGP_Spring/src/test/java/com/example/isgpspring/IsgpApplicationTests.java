@@ -14,7 +14,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 @SpringBootTest
-class DemoApplicationTests {
+class IsgpApplicationTests {
 	@Autowired
 	ApplicationContext ioc;
 
