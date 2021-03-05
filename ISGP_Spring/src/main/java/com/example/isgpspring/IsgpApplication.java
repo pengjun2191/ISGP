@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan(value="com.example.isgpspring.mapper")
-public class DemoApplication {
+public class IsgpApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(IsgpApplication.class, args);
 	}
 
 }
