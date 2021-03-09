@@ -3,10 +3,13 @@ package com.example.isgpspring.controller;
 import com.example.isgpspring.entity.PSysUser;
 import com.example.isgpspring.result.Result;
 import com.example.isgpspring.result.ResultFactory;
+import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+@Api(tags = "用户接口")
+@RequestMapping("")
 @RestController
 public class UsersController {
     //返回用户列表--用户管理使用
